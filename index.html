@@ -1,14 +1,139 @@
-<html>
-    
-    <body>
-        hello world
+<!doctype html>
+<html lang="en">
 
-        <div>
-            added a footer section here
-            
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+
+    <title>Hello, world!</title>
+</head>
+
+<body>
+    <h1>Different types of containers</h1>
+    <div class="container-sm" style="background-color: red;">100% wide until small breakpoint</div>
+    <div class="container-md" style="background-color: green;">100% wide until medium breakpoint</div>
+    <div class="container-lg" style="background-color: blue;">100% wide until large breakpoint</div>
+    <div class="container-xl" style="background-color: purple;">100% wide until extra large breakpoint</div>
+    <div class="container-xxl" style="background-color: magenta;">100% wide until extra extra large breakpoint</div>
+
+    <h2>Fluid Containr</h2>
+    <div class="container-fluid" style="background-color: gray;">
+        this is always 100% with of the screen
+    </div>
+    <!-- columns -->
+    <!-- <div class="container">
+        <div class="row">
+            <div class="col" style="background-color: red;">
+                Column 1
             </div>
-    </body>
-    
-    
-    
+            <div class="col" style="background-color: green;">
+                Column 2
+            </div>
+            <div class="col" style="background-color: blue;">
+                Column 3
+            </div>
+        </div>
+        <div class="row ">
+            <div class="col" style="background-color: red;">
+                Column 1
+            </div>
+            <div class="col" style="background-color: green;">
+                Column 2
+            </div>
+            <div class="col" style="background-color: blue;">
+                Column 3
+            </div>
+        </div>
+    </div> -->
+
+
+    <br>
+    <div class="container">
+        <!-- columns of different sizes -->
+        <!-- <div class="row" style="background-color: red;">
+            <div class="col">
+                1 of 3
+            </div>
+            <div class="col-6" style="background-color: green;">
+                2 of 3 (wider 6)
+            </div>
+            <div class="col" style="background-color: blue;">
+                3 of 3
+            </div>
+        </div> -->
+        <!-- columns of different sizes -->
+        <!-- <div class="row">
+            <div class="col" style="background-color: red;">
+                1 of 3
+            </div>
+            <div class="col-5" style="background-color: green;">
+                2 of 3 (wider 5)
+            </div>
+            <div class="col" style="background-color: blue;">
+                3 of 3
+            </div>
+        </div> -->
+        <!-- Bariable width -->
+        <!-- <h1>Vairable width</h1>
+        <div class="row justify-content-md-center">
+            <div class="col col-lg-2" style="background-color: red;">
+                1 of 3
+            </div>
+            <div class="col-md-auto" style="background-color: green;">
+                Variable width content
+            </div>
+            <div class="col col-lg-6" style="background-color: blue;">
+                3 of 3
+            </div>
+        </div> -->
+        <!-- not wrap on sm -->
+        <!-- <div class="row">
+            <div class="col-sm" style="background-color: red;">left col</div>
+            <div class="col-sm" style="background-color: green;"> right col </div>
+        </div> -->
+
+        <br>
+        <div class="row">
+            <div class="p-3 col-sm-8 col-md-4" style="background-color: red;">
+                <div class="p-3 border bg-light">Custom column padding</div>
+            </div>
+            <div class="p-3 col-sm-4 col-md-8" style="background-color: green;">
+                <div class="p-3 border bg-light">Custom column padding</div>
+            </div>
+        </div>
+
+        <div class="row g-5">
+            <div class="col-6" style="background-color: red;">
+                <div class="p-3 border bg-light">Custom column padding</div>
+            </div>
+            <div class="col-6" style="background-color: green;">
+                <div class="p-3 border bg-light">Custom column padding</div>
+            </div>
+            <div class="col-6" style="background-color: red;">
+                <div class="p-3 border bg-light">Custom column padding</div>
+            </div>
+            <div class="col-6" style="background-color: green;">
+                <div class="p-3 border bg-light">Custom column padding</div>
+            </div>
+        </div>
+
+        <!-- Optional JavaScript; choose one of the two! -->
+
+        <!-- Option 1: Bootstrap Bundle with Popper -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+            crossorigin="anonymous"></script>
+
+        <!-- Option 2: Separate Popper and Bootstrap JS -->
+        <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js" integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/" crossorigin="anonymous"></script>
+    -->
+</body>
+
 </html>
